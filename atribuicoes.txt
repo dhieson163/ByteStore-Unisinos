@@ -1,0 +1,14 @@
+ADMIN
+
+controllers, models
+-------------------
+produto: marcelo 
+usuario: juliano
+categoria: lucas
+cliente: anderson
+fornecedor: dhieson
+empenho: robson
+
+views
+------
+cada um com a sua
