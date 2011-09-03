@@ -8,6 +8,7 @@ class Fornecedor extends CI_Controller {
         $this->load->model('fornecedor_model');
         $this->load->library(array('table', 'pagination'));
         $this->load->helper('url');
+        
     }
 
     public function index() {
