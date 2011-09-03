@@ -9,6 +9,11 @@ class administrator extends CI_Controller {
         $this->load->view('partials/admin/header',$data);
         $this->load->view('admin/home/index');
         $this->load->view('partials/admin/footer');
-       }
+       
+        $data['title'] = 'ByteStore - Administração';
+        $this->load->view('partials/admin/header',$data);
+        $this->load->view('admin/home/index');
+        $this->load->view('partials/admin/footer');
+    }
 }
 ?>

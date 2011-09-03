@@ -38,7 +38,10 @@ class Cliente extends CI_Controller {
         $this->load->view('partials/admin/header',$data);
         $this->load->view('admin/cliente/view', $data);
         $this->load->view('partials/admin/footer');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 850d9f53840800249c6674ad1accce93b2073f19
     }
 
     public function lista() {

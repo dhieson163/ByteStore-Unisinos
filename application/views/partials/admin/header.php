@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo $title; ?></title>
-        <link rel="<?php echo base_url(); ?>/assets/css/admin/main.css" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/admin/main.css" />
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     </head>
     <body>
@@ -25,7 +25,15 @@
                 echo "\n";
                 echo anchor('admin/user', 'Usuarios', 'class="itens_menu"');
                 echo "\n";
+<<<<<<< HEAD
                 echo anchor('admin/produto/sair', 'Sair', 'class="itens_menu"');
                 ?>
             </div>
         </div>
+=======
+                echo anchor('auth/logout', 'Sair', 'class="itens_menu"');
+                ?>
+            </div>
+        </div>
+        <div id="conteudo" >
+>>>>>>> 850d9f53840800249c6674ad1accce93b2073f19
